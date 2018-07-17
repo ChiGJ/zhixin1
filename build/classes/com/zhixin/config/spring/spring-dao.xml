@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 配置整合mybatis过程 -->
-    <context:property-placeholder location="classpath:com/ultrapower/workmanager/config/jdbc.properties" />
+    <context:property-placeholder location="classpath:com/zhixin/config/jdbc.properties" />
 
     <!-- 2.数据库连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
