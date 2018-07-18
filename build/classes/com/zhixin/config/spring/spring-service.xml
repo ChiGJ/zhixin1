@@ -11,7 +11,7 @@
     http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!-- 扫描service包下所有使用注解的类型 -->
-    <context:component-scan base-package="com.ultrapower.workmanager.service" />
+    <context:component-scan base-package="com.zhixin.service" />
 
     <!-- 配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -19,7 +19,7 @@
     </bean>
 
     <aop:config proxy-target-class="true">
-        <aop:pointcut id="transactionOperation" expression="execution(* com.ultrapower.workmanager.service.*.*(..))" />
+        <aop:pointcut id="transactionOperation" expression="execution(* com.zhixin.service.*.*(..))" />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="transactionOperation" />
     </aop:config>
 
