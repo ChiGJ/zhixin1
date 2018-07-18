@@ -1,0 +1,103 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.text-muted{
+	color: #999;
+}
+body {
+	position: relative;
+	background: #fff;
+	font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial,
+		"Microsoft YaHei", FreeSans, Arimo, "Droid Sans",
+		"wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3",
+		FontAwesome, sans-serif;
+	color: #333;
+	font-size: 1.4rem;
+}
+
+div.container-fluid{
+	height: 100%;
+}
+
+.panel-select .row {
+	margin-top: 10px;
+}
+
+.panel-select div.grouptree{
+	float: left; width: 17%;height:600px; overflow:auto;
+}
+
+.panel-select div.itemtable{
+	float: right; width: 83%;
+}
+.panel-select input {
+	width: 100%;
+}
+
+div.panel-select,div.panel-top {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border: solid 1px #ddd !important;
+	
+}
+
+.bootstrap-table .pagination-info{
+	line-height: 30px;
+	font-size: 1.5rem;
+}
+
+body .bootstrap-table .table > thead > tr > th{
+	border-bottom: 0;
+	font-weight: normal;
+	background-color: #f0f0f0;
+}
+
+body .bootstrap-table div.fixed-table-header{
+	background-color: #f0f0f0;
+}
+
+.container-fluid div.toolbar{
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+button.btn-primary {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+input,select {
+	border: 1px solid #ccc;
+	padding: 4px 8px;
+}
+
+.myIframeBootstrapPage iframe{
+	border: 0px solid #fff;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container-row .row textarea{
+	width: 100%;
+	height: 200px;
+}
+
+.container-row .row input,select{
+	width: 100%;
+}
+
+.container-row .row{
+	margin-top: 10px;
+}
+
+.container-fluid .bottom{
+	margin-bottom: 10px;
+}
+
+
