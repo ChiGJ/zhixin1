@@ -1,0 +1,15 @@
+<!--
+	产生阴影效果
+-->
+.AppHeader {
+    position: relative;
+    z-index: 100;
+    min-width: 1032px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    background-clip: content-box;
+    display: block;
+    width:100%;
+    height:52px;
+}
