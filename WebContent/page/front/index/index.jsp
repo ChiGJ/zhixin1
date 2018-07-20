@@ -11,7 +11,8 @@
 <title>知心你我</title>
 </head>
 <body>
-hello
+<%@include file="/page/front/header.jsp" %>
+
 
 </body>
 </html>
