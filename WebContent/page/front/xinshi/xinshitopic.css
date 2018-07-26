@@ -1,0 +1,31 @@
+.header {
+    height: 59px;
+    border-bottom: 1px solid;
+    color: #c0c0c0;
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.header div{
+/* 	text-decoration:none; */
+/* 	display:inline; */
+	position:absolute;
+}
+.AppHeader-img {
+    height: 70px;
+    margin-top: 1px;
+    border: 0;
+}
+a{
+	text-decoration:none;
+}
+.centername{
+	margin-left:400px;
+	margin-top:15px;
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    background: #fff;
+}

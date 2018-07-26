@@ -10,5 +10,9 @@ public class IndexAction {
     private String index() {
         return "front/index/index";
     }
-
+    
+        @RequestMapping("/openzhixin")
+    private String zhixin() {
+        return "front/xinshi/xinshitopic";
+    }
 }
